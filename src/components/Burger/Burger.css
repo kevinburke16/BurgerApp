@@ -1,0 +1,31 @@
+/* all phones  */
+.Burger {
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  overflow: scroll;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/* Portrait mode media query */
+@media (min-width: 500px) and (min-height: 400px) {
+  .Burger {
+    width: 450px;
+    height: 400px;
+  }
+}
+/* smaller resultion phones */
+@media (min-width: 500px) and (min-height: 401px) {
+  .Burger {
+    width: 550px;
+    height: 400px;
+  }
+}
+/* pc and and laptop  */
+@media (min-width: 1000px) and (min-height: 700px) {
+  .Burger {
+    width: 700px;
+    height: 600px;
+  }
+}
